@@ -1,0 +1,106 @@
+
+body {
+    margin: 0;
+    text-align: center;
+    padding: 80px;
+  }
+  .cont {
+    border-radius: 10px;
+    background-color: rgb(226, 218, 149);
+    margin: auto;
+  }
+  h1 {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .operation {
+      display: flex;
+      justify-content: space-between;
+      padding: 0;
+      width: 40%;
+      margin: auto;
+     
+    }
+  
+  .manipulation {
+    background-color: rgb(218, 186, 233);
+    margin: auto;
+    padding: 20px;
+  }
+  
+  #a,
+  #b , i{
+    margin: 0;
+    font-size: 2em;
+  }
+  input{
+      font-size: 1.5em;
+      border: none;
+      margin: auto;
+      text-align: center;
+      border-radius: 5px;
+  }
+  
+  button{
+  background-color: rgb(80, 221, 174);
+  border-radius: 8px;
+  font-size: 1.2em;
+  border-color: transparent;
+  color: white;
+  font-weight: bolder;
+  display: none;
+  margin: auto;
+  text-align: center;
+  }
+  
+  button>i{
+      font-size: 1.2em;
+  }
+  
+  #monselect{
+      background-color: rgb(162, 247, 183);
+      margin-left: 60px;
+      font-size: 1.3em;
+  }
+  
+  #monselect,h1{
+      display: inline-block;
+  }
+  
+  span{
+  margin: auto;
+  text-align: center;
+  font-weight: bolder;
+  background-color: azure;
+  font-size: 1.1em;
+  padding: 5px;
+  border-radius: 10px;
+  padding-bottom: -5px;
+  
+  }
+  span>i{
+    font-size: 1em;
+    font-weight: bolder;
+  }
+  
+  span:hover {
+    color: white;
+    background-color: rgb(94, 224, 233);
+  }
+  span:active {
+    background-color: rgb(144, 228, 66);
+    color: white;
+    transition: 0.3s ease-in-out;
+    padding: 25px;
+  }
+  
+  
+  #false , #true{
+    display: none;
+  }
+  
+  #signe{
+    font-size: 1.2em;
+  }
+  

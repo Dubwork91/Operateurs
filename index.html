@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>la somme</title>
+  </head>
+  <body>
+    <div class="cont">
+        <h1>Qui est fort en Maths ?</h1>
+        <select id="monselect">
+          <option value="valeur1" selected>Somme</option>
+          <option value="valeur2">Soustraction</option>
+          <option value="valeur3">Multiplication</option>
+          <option value="valeur4">Division</option>
+        </select>
+  
+ 
+    <div class="manipulation" id="display">
+      <p id="a"></p>
+      <p id="signe">+</p>
+      <p id="b"></p>
+      <i class="fa-equals"></i>
+      <p></p>
+      <input type="text" placeholder="Saisir la réponse ici ..." /> <p id="val"></p> <span>confirmer<i class="fa-solid fa-check"></i></span>
+      <!--
+  <p></p> <i class="fa-solid fa-minus"></i> <p></p>
+      <p></p> <i class="fa-solid fa-xmark"></i> <p></p>
+      <p></p> <i class="fa-solid fa-divide"></i> <p></p>
+      -->
+    </div>
+    </div>
+  <p id="true"> Félicitation , tu as gagné <i class="fa-regular fa-face-smile-beam"></i></p>
+  <p id="false"> Malheureusement , tu as échoué <i class="fa-regular fa-face-frown"></i></p>
+  <button>Retour à la page d'acceuil <i class="fa-solid fa-left-long"></i></button>
+
+
+    <script src="jsript.js"></script>
+  </body>
+</html>
